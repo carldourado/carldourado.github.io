@@ -16,3 +16,5 @@
 /* Bicicletas */
 @import "./produtos/produtos-lista.css";
 
+/* Seguros */
+@import "./seguros/seguros.css";
