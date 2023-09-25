@@ -1,19 +1,13 @@
-.biciletas-lista {
+.produtos-lista {
   padding-top: 60px;
   padding-bottom: 120px;
 }
 
-.biciletas-lista h2 {
+.produtos-lista h2 {
   margin-bottom: 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.biciletas-lista ul {
+.produtos-lista ul {
   display: flex;
   gap: 40px;
   padding: 0 20px;
@@ -23,26 +17,26 @@
   flex-wrap: wrap;
 }
 
-.biciletas-lista li {
+.produtos-lista li {
   flex: 1;
   min-width: 280px;
 }
 
-.biciletas-lista a {
+.produtos-lista a {
   display: block;
 }
 
-.biciletas-lista img {
+.produtos-lista img {
   margin-bottom: 16px;
 }
 
-.biciletas-lista h3 {
+.produtos-lista h3 {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.biciletas-lista h3::before {
+.produtos-lista h3::before {
   content:"";
   display: inline-block;
   height: 8px;
@@ -52,19 +46,19 @@
   transition: width 0.3s;
 }
 
-.biciletas-lista a:hover h3::before {
+.produtos-lista a:hover h3::before {
   width: 24px;
 }
 
-.biciletas-lista li span {
+.produtos-lista li span {
   padding-left: 20px;
 }
 
 @media (max-width: 800px) {
-  .biciletas-lista {
+  .produtos-lista {
     padding-bottom: 60px;
   }
-  .biciletas-lista ul {
+  .produtos-lista ul {
     gap: 20px;
   }
 }
