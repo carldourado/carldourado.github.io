@@ -65,3 +65,31 @@
     font-size: 14px;
   }
 }
+
+audio {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Cor de fundo mais escura */
+  color: #fff; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno para melhor legibilidade */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+audio::-webkit-media-controls {
+  background-color: #333; /* Estilo dos controles do player no Chrome */
+  color: #fff;
+}
+
+/* Personalize os controles do player no Firefox */
+audio::-moz-media-controls {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Personalize os controles do player no Safari */
+audio::-webkit-media-controls-panel {
+  background-color: #E4A30B;
+  color: #fff;
+}
